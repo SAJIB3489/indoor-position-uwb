@@ -12,8 +12,7 @@ For more information, refer to http://infocenter.nordicsemi.com/pdf/in_105_v1.0.
 
 RF Modules DWM1001C UWB XCVR Module (FCC comp) 
 
-
-Manufactuer: Qorvo
+Manufacturer: Qorvo
 
 Product link: https://www.qorvo.com/products/p/DWM1001C#documents
 
