@@ -25,3 +25,4 @@ Flash software: https://www.segger.com/products/debug-probes/j-link/technology/f
 #### Software need to be installed:
 
 1. Embedded Studio: https://www.segger.com/downloads/embedded-studio/
+2. J-Link Software and Documentation pack: https://www.segger.com/downloads/jlink/
