@@ -27,3 +27,4 @@ Flash software: https://www.segger.com/products/debug-probes/j-link/technology/f
 1. Embedded Studio: https://www.segger.com/downloads/embedded-studio/
 2. J-Link Software and Documentation pack: https://www.segger.com/downloads/jlink/
 3. Arm GNU Toolchain (Download the latest version): https://developer.arm.com/downloads/-/gnu-rm
+4. MobaXterm Home Edition ( **Download the Portable edition** For SSH Connection and serial port): https://mobaxterm.mobatek.net/download-home-edition.html
