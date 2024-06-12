@@ -16,7 +16,7 @@ Manufacturer: Qorvo
 
 Product link: https://www.qorvo.com/products/p/DWM1001C#documents
 
-Flash software: https://www.segger.com/products/debug-probes/j-link/technology/flash-download
+<!--Flash software: https://www.segger.com/products/debug-probes/j-link/technology/flash-download-->
 
 
 ## Task 1: 
