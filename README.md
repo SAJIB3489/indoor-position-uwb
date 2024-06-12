@@ -25,6 +25,10 @@ Product link: https://www.qorvo.com/products/p/DWM1001C#documents
 #### Software need to be installed:
 
 1. Embedded Studio: https://www.segger.com/downloads/embedded-studio/
-2. J-Link Software and Documentation pack: https://www.segger.com/downloads/jlink/
+2. J-Link Software and Documentation pack (Download the latest version): https://www.segger.com/downloads/jlink/
 3. Arm GNU Toolchain (Download the latest version): https://developer.arm.com/downloads/-/gnu-rm
 4. MobaXterm Home Edition ( **Download the Portable edition** For SSH Connection and serial port): https://mobaxterm.mobatek.net/download-home-edition.html
+
+
+**Step 1:** Erase the chip and install Firmware
+1. Open the SEGGER folder from your pc where you selected the path. Open the JFlashLite software and configure it. Select the **Target Device** ``NRF52832_XXAA`` **Interface** ``SWD`` and **Speed** ``1000kHz``
