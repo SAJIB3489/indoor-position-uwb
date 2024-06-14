@@ -28,7 +28,7 @@ Product link: https://www.qorvo.com/products/p/DWM1001C#documents
 a) Configure the DWM1001C devices using Mobile Application ``DRTLS_Manager_R2.apk`` <br>
 b) Take **at least 6 DWM1001C devices**. Set 4 anchors, 1 tag and **1 anchors with Passive mode**.
 c) Download the [Putty Software](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) according to your PC system configuration. If you are using Linux install minicom. ``sudo apt-get install minicom`` <br>
-d) 
+d) Open the Putty, select the **Connection type** ``Serial`` and add the **Speed** ``112500 8N1`` and then click **Open**
 
 
 
