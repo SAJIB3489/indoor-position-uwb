@@ -32,7 +32,7 @@ d) Open the Putty, select the **Connection type** ``Serial`` and add the **Seria
 e) You will see a Terminal. Click your **ENTER** button twice. Then write the command ``les`` and enter.
 
 
-**Linux user:** 
+**Linux user:** <br> <br>
 c) Install minicom. ``sudo apt-get install minicom``. <br>
 d) Then open a New Terminal type ``minicom -D /dev/ttyACM0 -b 115200``. Here ``ACM0`` number will depend on your USB/UART port. <br>
 e) Click your **ENTER** button twice. Then write the command ``les`` and enter. <br>
