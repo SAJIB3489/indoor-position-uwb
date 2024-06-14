@@ -41,7 +41,7 @@ e) Click your **ENTER** button twice. Then write the command ``les`` and enter. 
 
 
 
-Now you should see the distance of the **Tag device**. You can move it AROUND and analysis the distance.
+Now you should see the distance of the **Tag device**. You can move it around and analysis the distance.
 
 
 ##### PART 2
