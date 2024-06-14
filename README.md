@@ -103,6 +103,13 @@ anchors = {
 }
 ```
 
+It will create a 3D scatter plot with the tag's movement highlighted
+
+```
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+```
+
 Plot the anchors
 
 ```
@@ -111,10 +118,37 @@ for name, (x, y, z) in anchors.items():
     ax.text(x, y, z, name, color='black')
 ```
 
+Plot the tag positions with lines connecting them to show movement
+
+
+```
+tag_x, tag_y, tag_z = zip(*tag_positions)
+sc = ax.scatter(tag_x, tag_y, tag_z, c=tag_z, cmap='viridis', label='DWC337', s=50)
+ax.plot(tag_x, tag_y, tag_z, color='blue')
+```
+
+Adding labels and title
+```
+ax.set_xlabel('X Axis')
+ax.set_ylabel('Y Axis')
+ax.set_zlabel('Z Axis')
+ax.set_title('3D Scatter Plot of UWB Devices with Tag Movement')
+```
+
+It will create a color bar
+
+
+```
+cbar = plt.colorbar(sc, ax=ax, shrink=0.5, aspect=5)
+cbar.set_label('Tag Z Position')
+```
+
+
+**That's all for this task! Thank you.**
 
 
 
-
+## Further development the apps, updates the firmware, need to use the following softwares.
 
 
 #### Software need to be installed:
@@ -125,5 +159,7 @@ for name, (x, y, z) in anchors.items():
 4. MobaXterm Home Edition ( **Download the Portable edition** For SSH Connection and serial port): https://mobaxterm.mobatek.net/download-home-edition.html
 
 
+<!--
 **Step 1:** Erase the chip and install Firmware
 1. Open the SEGGER folder from your pc where you selected the path. Open the JFlashLite software and configure it. Select the **Target Device** ``NRF52832_XXAA`` **Interface** ``SWD`` and **Speed** ``1000kHz``. Then **Data File** selgo to the **Factory_Firmware_Image** and select the file ``DWM1001_PANS_R2.0.hex``  from your **local folder** (Download the folder from Onedrive). **Click** the **Erase Chip** and after completing the process click on **Program Device**. All done.
+-->

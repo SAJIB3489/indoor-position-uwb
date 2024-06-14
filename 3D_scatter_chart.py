@@ -48,7 +48,7 @@ anchors = {
     "DW4108": (0.00, 0.28, 0.00)
 }
 
-# Create a 3D scatter plot with the tag's movement highlighted
+# It will create a 3D scatter plot with the tag's movement highlighted
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
