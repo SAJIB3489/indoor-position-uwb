@@ -56,6 +56,63 @@ At this stage we can see the data, now time to visualize the data and analysis d
 ![View](Chart.png)
 
 
+##### Code Explainations
+
+Here is the Function to extract X, Y, and Z coordinates from raw data
+```
+def extract_coordinates(data):
+    pattern = r"C337\[(\d*\.\d+),(\d*\.\d+),(\-?\d*\.\d+)"
+    coordinates = re.findall(pattern, data)
+    return [(float(x), float(y), float(z)) for x, y, z in coordinates]
+```
+
+
+Our Raw data string for the tag that we got through listener device. You can copy paste your data here from the Putty terminal
+
+
+```
+raw_data = """
+[000969.170 INF] loc_data: 1
+ 0) C337[0.46,0.50,0.00,56,x0D]
+ 
+[000970.170 INF] loc_data: 1
+ 0) C337[0.80,0.38,0.18,56,x0D]
+ 
+[000971.170 INF] loc_data: 1
+ 0) C337[0.02,0.10,0.00,56,x0D]
+ 
+[000972.170 INF] loc_data: 1
+ 0) C337[0.30,0.70,0.08,56,x0D]
+ 
+[000973.170 INF] loc_data: 1
+ 0) C337[0.99,0.20,0.15,59,x0D]
+ 
+ [000973.170 INF] loc_data: 1
+ 0) C337[0.55,0.30,0.07,59,x0D]
+"""
+```
+
+Add your anchors level number and anchors data
+
+```
+anchors = {
+    "DW8018": (0.00, 0.00, 0.00),
+    "DW0B01": (0.42, 0.00, 0.00),
+    "DW06A1": (0.42, 0.28, 0.00),
+    "DW4108": (0.00, 0.28, 0.00)
+}
+```
+
+Plot the anchors
+
+```
+for name, (x, y, z) in anchors.items():
+    ax.scatter(x, y, z, color='red', label=name)
+    ax.text(x, y, z, name, color='black')
+```
+
+
+
 
 
 
