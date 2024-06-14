@@ -27,11 +27,15 @@ Product link: https://www.qorvo.com/products/p/DWM1001C#documents
 
 a) Configure the DWM1001C devices using Mobile Application ``DRTLS_Manager_R2.apk`` <br>
 b) Take **at least 6 DWM1001C devices**. Set 4 anchors, 1 tag and **1 anchors with Passive mode**.
-c) Download the [Putty Software](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) according to your PC system configuration. If you are using Linux install minicom. ``sudo apt-get install minicom`` <br>
-d) Open the Putty, select the **Connection type** ``Serial`` and add the **Speed** ``112500 8N1`` and then click **Open**
+c) Download the [Putty Software](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) according to your PC system configuration. <br>
+d) Open the Putty, select the **Connection type** ``Serial`` and add the **Serial line** ``COM7`` (here UART port could be different for your PC. Go to **Device Manager > Ports**) and **Speed** ``112500 8N1`` and then click **Open**. <br>
+e) You will see a Terminal. Click your **ENTER** button twice. Then write the command ``les`` and enter.
 
 
-
+**Linux user:** 
+c) Install minicom. ``sudo apt-get install minicom``. <br>
+d) Then open a New Terminal type ``minicom -D /dev/ttyACM0 -b 115200``. Here ``ACM0`` number will depend on your USB/UART port. <br>
+e) Click your **ENTER** button twice. Then write the command ``les`` and enter. <br>
 
 
 
