@@ -19,10 +19,14 @@ Product link: https://www.qorvo.com/products/p/DWM1001C#documents
 <!--Flash software: https://www.segger.com/products/debug-probes/j-link/technology/flash-download-->
 
 
+
+
+
+
 ### Task 1: Setup the DWM1001C devices using node type Anchors, Tag's and Listen the information through Listener module from external PC, measure the distance and analysis the data.
 
-a)  Configure the DWM1001C devices using Mobile Application ``DRTLS_Manager_R2.apk``
-
+a) Configure the DWM1001C devices using Mobile Application ``DRTLS_Manager_R2.apk``
+b) Take **at least 6 DWM1001C devices**. Set 4 anchors, 1 tag and **1 anchors with Passive mode**
 
 
 
