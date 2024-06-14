@@ -148,7 +148,7 @@ cbar.set_label('Tag Z Position')
 
 
 
-### Further development the apps, updates the firmware, need to use the following softwares.
+### Further development the apps, updates the firmware, you will need following softwares.
 
 
 #### Software need to be installed:
