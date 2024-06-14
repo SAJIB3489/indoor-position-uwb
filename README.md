@@ -23,7 +23,7 @@ Product link: https://www.qorvo.com/products/p/DWM1001C#documents
 
 
 
-### Task 1: Setup the DWM1001C devices using node type Anchors, Tag's and Listen the information through Listener module from external PC, measure the distance and analysis the data.
+### Task 1: Setup the DWM1001C devices using node type Anchors, Tag's and Listen the information through Listener module from external PC, measure the position and analysis the data.
 
 ##### PART 1
 
