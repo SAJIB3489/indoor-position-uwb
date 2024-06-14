@@ -26,7 +26,10 @@ Product link: https://www.qorvo.com/products/p/DWM1001C#documents
 ### Task 1: Setup the DWM1001C devices using node type Anchors, Tag's and Listen the information through Listener module from external PC, measure the distance and analysis the data.
 
 a) Configure the DWM1001C devices using Mobile Application ``DRTLS_Manager_R2.apk`` <br>
-b) Take **at least 6 DWM1001C devices**. Set 4 anchors, 1 tag and **1 anchors with Passive mode**
+b) Take **at least 6 DWM1001C devices**. Set 4 anchors, 1 tag and **1 anchors with Passive mode**.
+c) Download the [Putty Software](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) according to your PC system configuration. If you are using Linux install minicom. ``sudo apt-get install minicom`` <br>
+d) 
+
 
 
 
