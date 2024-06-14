@@ -49,8 +49,11 @@ Now you should see the distance of the **Tag device**. You can move it AROUND an
 At this stage we can see the data, now time to visualize the data and analysis data. Here is Python Algorithm to do this job.
 
 1. First Download the full Repository and extract it in to your PC.
-2. You will find a file called ``3D_scatter_chart.py``. Open the file using the **Visual Studio Code** Software. Go to the Terminal option and click a New Terminal option.
-3. Write the command on the Terminal ``python3 3D_scatter_chart.py``
+2. Download the [Visual Studio Code](https://code.visualstudio.com/) Software, [Python](https://www.python.org/) and [VS Code Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
+2. Navigate the repository folder, you will find a file called ``3D_scatter_chart.py``. Open the file using the **Visual Studio Code** Software. Go to the Terminal option and click on a New Terminal option. Write the command  ``py -m pip install matplotlib``
+3. Now Run the code.
+
+![View](Chart.png)
 
 
 
