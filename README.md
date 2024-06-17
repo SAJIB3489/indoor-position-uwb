@@ -149,7 +149,7 @@ cbar.set_label('Tag Z Position')
 
 **Exercise: 1**
 
-Anchor Placement: Use at least 6 anchors and 1 Tag. Arrange the anchors on a large table, ensuring they are spaced out. Keep the devices at a significant distance from each other.
+Anchor Placement: Use at least 6 anchors and 1 Tag. Attach the devices in the corner (with wall) of the room, ensuring they are spaced out. Keep the devices at a significant distance from each other.
 
 Data Collection: Use a listener device connected to your PC. Move the Tag to different positions within the setup. Collect data during these movements.
 
