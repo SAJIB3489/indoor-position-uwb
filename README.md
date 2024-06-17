@@ -147,6 +147,19 @@ cbar.set_label('Tag Z Position')
 **That's all for this task! Thank you.**
 
 
+**Exercise: 1**
+
+Anchor Placement: Use at least 6 anchors and 1 Tag. Arrange the anchors on a large table, ensuring they are spaced out. Keep the devices at a significant distance from each other.
+
+Data Collection: Use a listener device connected to your PC. Move the Tag to different positions within the setup. Collect data during these movements.
+
+Plotting the 3D Scatter Graph: Utilize Python algorithm to process the collected data. Plot a 3D scatter graph based on the data points.
+
+
+
+
+
+
 
 ### Further development the apps, updates the firmware, you will need following softwares.
 
