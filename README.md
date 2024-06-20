@@ -169,6 +169,23 @@ Plotting the 3D Scatter Graph: Utilize Python algorithm to process the collected
 ![View](gateway.png)
 
 
+**1. Devices **
+Anchors: 4
+Tag: 1
+Bridge: 1 (attached with raspberry pi 3 B)
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Further development the apps, updates the firmware, you will need following softwares.
 
 
