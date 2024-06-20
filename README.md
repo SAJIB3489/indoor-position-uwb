@@ -202,7 +202,7 @@ For example: ``https://192.168.0.63``
 
 
 
-### Further development the apps, updates the firmware, you will need following softwares.
+### For DWM1001C device development, to update the firmware and debug the codes, you will need the following software.
 
 
 #### Software need to be installed:
