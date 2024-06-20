@@ -198,7 +198,7 @@ For example: ``https://192.168.0.63``
 ![view](web_manager.png)
 
 
-That's all. Further implement read the document from page 22-27 from [Gateway Quick Deployment Guide](DWM1001%20Gateway%20Quick%20Deployment%20Guide.pdf).
+**That's all for this task! Thank you.**. For further implement please read the document from page 22-27 from [Gateway Quick Deployment Guide](DWM1001%20Gateway%20Quick%20Deployment%20Guide.pdf).
 
 
 
