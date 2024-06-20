@@ -25,6 +25,10 @@ Product link: https://www.qorvo.com/products/p/DWM1001C#documents
 
 ### Task 1: Setup the DWM1001C devices using node type Anchors, Tag's and Listen the information through Listener module from external PC, measure the position and analysis the data.
 
+
+![View](listener.png)
+
+
 ##### PART 1
 
 a) Configure the DWM1001C devices using Mobile Application ``DRTLS_Manager_R2.apk`` <br>
@@ -159,6 +163,10 @@ Plotting the 3D Scatter Graph: Utilize Python algorithm to process the collected
 
 
 
+### Gateway setup and Configuration
+
+
+![View](gateway.png)
 
 
 ### Further development the apps, updates the firmware, you will need following softwares.
