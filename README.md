@@ -26,7 +26,7 @@ Product link: https://www.qorvo.com/products/p/DWM1001C#documents
 ### Task 1: Setup the DWM1001C devices using node type Anchors, Tag's and Listen the information through Listener module from external PC, measure the position and analysis the data.
 
 
-![View](listener.png)
+![View](listener_diagram.png)
 
 
 ##### PART 1
@@ -193,8 +193,12 @@ All done. You have to be in the same network that network connected with raspber
 ```
 https://ip_address_of_raspberrypi
 ```
+For example: ``https://192.168.0.63``
+
+![view](web_manager.png)
 
 
+That's all. Further implement read the document from page 22-27 from [Gateway Quick Deployment Guide](DWM1001%20Gateway%20Quick%20Deployment%20Guide.pdf).
 
 
 
