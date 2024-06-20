@@ -163,7 +163,7 @@ Plotting the 3D Scatter Graph: Utilize Python algorithm to process the collected
 
 
 
-### Gateway setup and Configuration
+### Task 2: RTLS system configuration and monitoring from a web-manager.
 
 
 ![View](gateway.png)
