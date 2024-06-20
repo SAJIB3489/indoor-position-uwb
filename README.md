@@ -173,6 +173,7 @@ Plotting the 3D Scatter Graph: Utilize Python algorithm to process the collected
 a) Anchors: ``4`` <br>
 b) Tag: ``1`` <br>
 c) Bridge: ``1`` (attached with raspberry pi 3 B) <br>
+d) Raspberry Pi 3 B: ``1``
 
 
 
