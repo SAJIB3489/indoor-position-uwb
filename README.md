@@ -177,16 +177,16 @@ d) Raspberry Pi 3 B: ``1``
 
 **Process:** <br>
 
-Firstly, you need to Flash the DWM1001 using [J-Flash Lite](https://www.segger.com/downloads/jlink/) and need to select latest “DWM1001_PANS_R2.1.hex” as data file and click on “Program Device”. Page refers (9) from [Gateway Quick Deployment Guide](DWM1001%20Gateway%20Quick%20Deployment%20Guide.pdf).
+Firstly, you need to Flash the DWM1001 using [J-Flash Lite](https://www.segger.com/downloads/jlink/) and need to select latest “DWM1001_PANS_R2.1.hex” as data file and click on “Program Device”. Page refers (9) from [Gateway Quick Deployment Guide](/attachment/DWM1001%20Firmware%20User%20Guide.pdfDWM1001%20Gateway%20Quick%20Deployment%20Guide.pdf).
 <br>
 
 
-Secondly, **CREATE AN RTLS NETWORK** Using the UART shell mode. Page refers (11-14) from [Gateway Quick Deployment Guide](DWM1001%20Gateway%20Quick%20Deployment%20Guide.pdf).
+Secondly, **CREATE AN RTLS NETWORK** Using the UART shell mode. Page refers (11-14) from [Gateway Quick Deployment Guide](/attachment/DWM1001%20Firmware%20User%20Guide.pdfDWM1001%20Gateway%20Quick%20Deployment%20Guide.pdf).
 
 
-Then you will have to do **Bridge node setup and configuration**. and **Setup the raspberry pi 3 model B**. Page refers (15-17) from [Gateway Quick Deployment Guide](DWM1001%20Gateway%20Quick%20Deployment%20Guide.pdf). <br>
+Then you will have to do **Bridge node setup and configuration**. and **Setup the raspberry pi 3 model B**. Page refers (15-17) from [Gateway Quick Deployment Guide](/attachment/DWM1001%20Firmware%20User%20Guide.pdfDWM1001%20Gateway%20Quick%20Deployment%20Guide.pdf). <br>
 
-Now to check the connection, **Connect to the R3B from Windows through SSH connection**. Page refers (18) from [Gateway Quick Deployment Guide](DWM1001%20Gateway%20Quick%20Deployment%20Guide.pdf). No need to modified any file inside the raspberry pi in this section. <br>
+Now to check the connection, **Connect to the R3B from Windows through SSH connection**. Page refers (18) from [Gateway Quick Deployment Guide](/attachment/DWM1001%20Firmware%20User%20Guide.pdfDWM1001%20Gateway%20Quick%20Deployment%20Guide.pdf). No need to modified any file inside the raspberry pi in this section. <br>
 
 
 All done. You have to be in the same network that network connected with raspberry pi as well. Open your Morzila Firefox or Chrome. Visit 
@@ -198,7 +198,7 @@ For example: ``https://192.168.0.63``
 ![view](web_manager.png)
 
 
-**That's all for this task! Thank you.**. For further implement please read the document from page 22-27 from [Gateway Quick Deployment Guide](DWM1001%20Gateway%20Quick%20Deployment%20Guide.pdf).
+**That's all for this task! Thank you.**. For further implement please read the document from page 22-27 from [Gateway Quick Deployment Guide](/attachment/DWM1001%20Firmware%20User%20Guide.pdfDWM1001%20Gateway%20Quick%20Deployment%20Guide.pdf).
 
 
 
