@@ -177,7 +177,7 @@ d) Raspberry Pi 3 B: ``1``
 
 **Process:** <br>
 
-Firstly, you need to Flash the DWM1001 using [J-Flash Lite](https://www.segger.com/downloads/jlink/) and need to select latest “DWM1001_PANS_R2.1.hex” as data file and click on “Program Device”. Page refers (9) from [Gateway Quick Deployment Guide](/attachment/DWM1001%20Firmware%20User%20Guide.pdfDWM1001%20Gateway%20Quick%20Deployment%20Guide.pdf).
+Firstly, you need to Flash the DWM1001 using [J-Flash Lite](https://www.segger.com/downloads/jlink/) and need to select latest “DWM1001_PANS_R2.1.hex” as data file and click on “Program Device”. Page refers (9) from [Gateway Quick Deployment Guide](/attachment/DWM1001%20Firmware%20User%20Guide.pdf).
 <br>
 
 
