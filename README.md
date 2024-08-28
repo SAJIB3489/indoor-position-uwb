@@ -217,3 +217,6 @@ For example: ``https://192.168.0.63``
 **Step 1:** Erase the chip and install Firmware
 1. Open the SEGGER folder from your pc where you selected the path. Open the JFlashLite software and configure it. Select the **Target Device** ``NRF52832_XXAA`` **Interface** ``SWD`` and **Speed** ``1000kHz``. Then **Data File** selgo to the **Factory_Firmware_Image** and select the file ``DWM1001_PANS_R2.0.hex``  from your **local folder** (Download the folder from Onedrive). **Click** the **Erase Chip** and after completing the process click on **Program Device**. All done!
 -->
+
+# Contributors
+Developed by [Md Sajib Pramanic](https://github.com/SAJIB3489) , contributors [Matti Kortelainen](https://github.com/Sandmaenchen) and [Paavo Vartiainen](https://github.com/Paavo-UEF).
